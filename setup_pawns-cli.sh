@@ -8,8 +8,8 @@ docker run -d \
   --name pawns_cli_container \
   --restart=unless-stopped \
   iproyal/pawns-cli:latest \
-  -email=absaralam.crypto@gmail.com \
-  -password=o\$#kyS82eLyI \
+  -email=example@gmail.com \
+  -password=password \
   -device-name=github \
   -device-id=codepsace \
   -accept-tos
