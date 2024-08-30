@@ -1,0 +1,25 @@
+active-services = "data_transfer"
+stun-servers = ["stun.l.google.com:19302", "stun1.l.google.com:19302", "stun2.l.google.com:19302"]
+traversal = "holepunching,manual,upnp"
+
+[ether]
+  [ether.client]
+    rpcl2 = ["https://polygon1.mysterium.network/", "https://polygon-rpc.com/"]
+
+[mmn]
+  api-key = "kPcZyvLA13LU2GCZpUgzKaX6eG73dH9Phun6Y2BQ"
+
+[node]
+  version = "10398950750"
+
+[node-ui]
+  PROFILE_ICON = "cat"
+  UI_THEME_KEY = "dark"
+
+[terms]
+  consumer-agreed = true
+  provider-agreed = true
+  version = "0.0.53"
+
+[udp]
+  ports = "10000:60000"
