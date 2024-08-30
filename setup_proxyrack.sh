@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Generate a Device ID
-DEVICE_ID=FBD89170E8F5B8786356ECE58685796468EB17BE4E7AFEB6060235D18926EABB
+DEVICE_ID=$(cat /dev/urandom | LC_ALL=C tr -dc 'A-F0-9' | dd bs=1 count=64 2>/dev/null)
 echo "Generated Device ID: $DEVICE_ID"
 
 # Pull the latest ProxyRack Docker image
