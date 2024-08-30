@@ -15,7 +15,7 @@ Welcome to the **Passive Income Apps in Docker on GitHub Codespaces** repository
 First, clone this repository to your GitHub Codespace:
 
 ```bash
-git clone https://github.com/absaro/docker.git
+https://github.com/absaro/docker_public.git
 ```
 
 ### Setup Scripts
