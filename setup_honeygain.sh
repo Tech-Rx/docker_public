@@ -10,6 +10,6 @@ docker run --rm honeygain/honeygain -tou-get
 docker run -d \
   --name honeygain_container \
   honeygain/honeygain -tou-accept \
-  -email absaralam.crypto@gmail.com \
-  -pass 0k%TgtJ8KXdn \
+  -email example@gmail.com \
+  -pass password \
   -device codespace
