@@ -1,4 +1,4 @@
-## Passive Income Apps in Docker on GitHub Codespaces
+# Passive Income Apps in Docker on GitHub Codespaces
 
 Welcome to the **Passive Income Apps in Docker on GitHub Codespaces** repository! This project explores various passive earning applications by setting them up in Docker containers within GitHub Codespaces. The goal is to evaluate their functionality, assess their performance, and determine their potential for generating passive income.
 
@@ -18,7 +18,7 @@ First, clone this repository to your GitHub Codespace:
 https://github.com/absaro/docker_public.git
 ```
 
-### Setup Scripts
+## Setup Scripts
 
 The repository includes several `.sh` files for setting up different passive income apps. Follow these steps to configure each app:
 
@@ -26,9 +26,9 @@ The repository includes several `.sh` files for setting up different passive inc
 
 2. Edit the `.sh` files to update credentials and any other configuration details:
 
-   ```bash
-   nano setup_(app_name).sh  # Open and edit the script as needed
-   ```
+ ```bash
+ nano setup_(app_name).sh  # Open and edit the script as needed
+ ```
  Or,  
 ![Screenshot 2024-08-25 165406](https://github.com/user-attachments/assets/01b4153b-7efc-4ca8-86f1-de2449481e06)
 
@@ -64,3 +64,18 @@ Copy and past this to the very last of the .bashrc file
 4. Repocket
 5. PacketStream
 6. Mysterium Node
+
+## STATUS
+
+### On Datacenter IPs
+
+| App                    | Supported (✓) | Not Supported (✗) |
+|------------------------|---------------|--------------------|
+| Honeygain              |               | ✗                  |
+| PwwnsApp               |               | ✗                  |
+| Proxyrack              | ✓             |                    |
+| Repocket               | ✓             |                    |
+| PacketStream           |               | ✗                  |
+| MystNode               | ✓             |                    |
+
+On Residential IPs all works!
